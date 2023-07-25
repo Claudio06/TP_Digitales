@@ -527,3 +527,159 @@ footer .col_footer {
   margin: auto;
   width: 80%;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .portada .title_portada {
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+  }
+  .m_principal {
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .equipo {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .title_equipo {
+    font-size: 18px;
+  }
+  .txt_equipo .info_equipo {
+    text-align: start;
+    line-height: 23px;
+    font-size: 12px;
+  }
+  .col_equipo .img_equipo {
+    width: 100px;
+    height: 100px;
+  }
+  .viaje {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .col_viaje {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .viaje_formulario {
+    height: 350px;
+  }
+  .viaje .img_viaje {
+    margin: auto;
+    width: auto;
+    height: auto;
+  }
+  .col_viaje .title_viaje {
+    text-align: center;
+  }
+  .col_viaje .txt_viaje {
+    font-size: 12px;
+  }
+  .col_viaje .btn_viaje {
+    margin: 0.7em auto 0 auto;
+    font-size: 12px;
+  }
+  .suscripcion {
+    padding-top: 3em;
+    background-size: cover;
+  }
+  .suscripcion .col_suscripcion {
+    width: 90%;
+  }
+  .title_suscripcion {
+    font-size: 18px;
+  }
+  .txt_suscripcion {
+    font-size: 12px;
+    margin: 0;
+  }
+  .suscripcion_formulario input {
+    padding: 6px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  /* Estilos responsivos de Contacto */
+  .title_contacto {
+    font-size: 24px;
+    margin: 2.5em auto 0 auto;
+  }
+  .contacto {
+    display: flex;
+    flex-direction: column;
+    margin: 2.5em auto 0 auto;
+  }
+
+  .col_cont {
+    width: 90%;
+    margin: 0 auto 2.5em auto;
+  }
+
+  .col_cont form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  form input,
+  textarea,
+  label {
+    padding: 3px;
+    width: 90%;
+  }
+
+  form input,
+  textarea {
+    border: 1px solid #000000;
+  }
+
+  .col_cont .mapa {
+    width: 100%;
+    border-radius: 3px;
+    border: 2px solid #000000;
+  }
+  .redes_contacto {
+    font-size: 12px;
+  }
+
+  .redes_contacto img {
+    width: 30px;
+    height: 30px;
+  }
+  /* Estilos de Galeria */
+  /* ========================= */
+  header .title_galeria {
+    font-size: 24px;
+  }
+
+  hr {
+    width: 90%;
+  }
+
+  .col {
+    width: 250px;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+    border: 3px solid #ffffff;
+    background-color: #ffffff;
+  }
+
+  .col .auto {
+    margin: 5px;
+  } 
+
+  .col .txt_auto {
+    font-size: 16px;
+  } .col .info_auto{
+    font-size: 12px;
+  }
+}
